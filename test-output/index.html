@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.Testcase.productCartTestCases" class="method navigator-link" hash-for-method="VerifyProductPrice">VerifyProductPrice</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -119,6 +105,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.Testcase.RegisterTestCases" class="method navigator-link" hash-for-method="VerifyInvalidregistration">VerifyInvalidregistration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Testcase.productCartTestCases" class="method navigator-link" hash-for-method="VerifyProductPrice">VerifyProductPrice</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -148,9 +139,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.Testcase.productCartTestCases</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -159,18 +150,10 @@
                   <a name="VerifyProductPrice">
                   </a> <!-- VerifyProductPrice -->
                   <span class="method-name">VerifyProductPrice</span>
-                  <div class="stack-trace">java.lang.NumberFormatException: For input string: &quot;800.00&quot;
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:668)
-	at java.base/java.lang.Integer.parseInt(Integer.java:786)
-	at com.Testcase.productCartTestCases.VerifyProductPrice(productCartTestCases.java:77)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -273,23 +256,23 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'VerifyProductPrice')
 data.setCell(0, 2, 'com.Testcase.productCartTestCases')
-data.setCell(0, 3, 22672);
+data.setCell(0, 3, 20970);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'VerifyInvalidregistration')
-data.setCell(1, 2, 'com.Testcase.RegisterTestCases')
-data.setCell(1, 3, 17340);
+data.setCell(1, 1, 'verifyValidLogin')
+data.setCell(1, 2, 'com.Testcase.LoginTestCases')
+data.setCell(1, 3, 14809);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Verifyvalidregistration')
-data.setCell(2, 2, 'com.Testcase.RegisterTestCases')
-data.setCell(2, 3, 12239);
+data.setCell(2, 1, 'verifyInValidLogin')
+data.setCell(2, 2, 'com.Testcase.LoginTestCases')
+data.setCell(2, 3, 14449);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyValidLogin')
-data.setCell(3, 2, 'com.Testcase.LoginTestCases')
-data.setCell(3, 3, 12170);
+data.setCell(3, 1, 'VerifyInvalidregistration')
+data.setCell(3, 2, 'com.Testcase.RegisterTestCases')
+data.setCell(3, 3, 13203);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyInValidLogin')
-data.setCell(4, 2, 'com.Testcase.LoginTestCases')
-data.setCell(4, 3, 7947);
+data.setCell(4, 1, 'Verifyvalidregistration')
+data.setCell(4, 2, 'com.Testcase.RegisterTestCases')
+data.setCell(4, 3, 9618);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -327,27 +310,25 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Verifyvalidregistration</span>
-                <span class="method-start">17344 ms</span>
+                <span class="method-start">13206 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.Testcase.productCartTestCases</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">VerifyProductPrice</span>
-                <span class="method-start">29588 ms</span>
+                <span class="method-start">22829 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.Testcase.LoginTestCases</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyInValidLogin</span>
-                <span class="method-start">52264 ms</span>
+                <span class="method-start">43806 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyValidLogin</span>
-                <span class="method-start">60213 ms</span>
+                <span class="method-start">58256 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

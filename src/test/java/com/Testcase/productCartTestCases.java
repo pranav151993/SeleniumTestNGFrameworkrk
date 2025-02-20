@@ -74,11 +74,11 @@ public class productCartTestCases extends BaseClass {
 				FinalPrice=pcp.Productpriceordertotal().getText();
 				System.out.println(FinalPrice);
 				
-				int a = Integer.parseInt(pricebeforeCart);
-                int b = Integer.parseInt(FinalPrice);
+				double a = Double.parseDouble(pricebeforeCart);
+				double b = Double.parseDouble(FinalPrice);
 				
-				int ExpectedValue = a;
-				int ActualValue = b;
+				double ExpectedValue = a;
+				double ActualValue = b;
 				
 				SoftAssert xy=new SoftAssert();
 				  xy.assertEquals(ActualValue, ExpectedValue);
