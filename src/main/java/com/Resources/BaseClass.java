@@ -18,7 +18,7 @@ public class BaseClass {
 	public void Initializedriver() throws IOException {
 		
 		//Read the file
-		FileInputStream fis = new FileInputStream("C:\\Users\\pranav.awate\\Neweclipsworkplace\\24jan2024seleniumTestNgFramework\\src\\main\\java\\com\\Resources\\data.properties");
+		FileInputStream fis = new FileInputStream("H:\\pranavsoftwares\\SELENIUM\\ECLIPSE\\24jan2024seleniumTestNgFramework\\src\\main\\java\\com\\Resources\\data.properties");
 		
 		//access the contetnt inside properties file
 		
