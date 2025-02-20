@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-20T09:05:06 IST" name="Suite" finished-at="2025-02-20T09:06:19 IST" duration-ms="72969">
+  <suite started-at="2025-02-20T09:56:15 IST" name="Suite" finished-at="2025-02-20T09:57:28 IST" duration-ms="72435">
     <groups>
     </groups>
-    <test started-at="2025-02-20T09:05:06 IST" name="Test" finished-at="2025-02-20T09:06:19 IST" duration-ms="72969">
+    <test started-at="2025-02-20T09:56:15 IST" name="Test" finished-at="2025-02-20T09:57:28 IST" duration-ms="72435">
       <class name="com.Testcase.RegisterTestCases">
-        <test-method signature="VerifyInvalidregistration()[pri:0, instance:com.Testcase.RegisterTestCases@383bfa16]" started-at="2025-02-20T09:05:06 IST" name="VerifyInvalidregistration" finished-at="2025-02-20T09:05:19 IST" duration-ms="13030" status="PASS">
+        <test-method signature="VerifyInvalidregistration()[pri:0, instance:com.Testcase.RegisterTestCases@383bfa16]" started-at="2025-02-20T09:56:15 IST" name="VerifyInvalidregistration" finished-at="2025-02-20T09:56:33 IST" duration-ms="17340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyInvalidregistration -->
-        <test-method signature="Verifyvalidregistration()[pri:0, instance:com.Testcase.RegisterTestCases@383bfa16]" started-at="2025-02-20T09:05:19 IST" name="Verifyvalidregistration" finished-at="2025-02-20T09:05:31 IST" duration-ms="11960" status="PASS">
+        <test-method signature="Verifyvalidregistration()[pri:0, instance:com.Testcase.RegisterTestCases@383bfa16]" started-at="2025-02-20T09:56:33 IST" name="Verifyvalidregistration" finished-at="2025-02-20T09:56:45 IST" duration-ms="12239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verifyvalidregistration -->
       </class> <!-- com.Testcase.RegisterTestCases -->
       <class name="com.Testcase.productCartTestCases">
-        <test-method signature="VerifyProductPrice()[pri:0, instance:com.Testcase.productCartTestCases@614ca7df]" started-at="2025-02-20T09:05:31 IST" name="VerifyProductPrice" finished-at="2025-02-20T09:05:54 IST" duration-ms="23089" status="FAIL">
+        <test-method signature="VerifyProductPrice()[pri:0, instance:com.Testcase.productCartTestCases@614ca7df]" started-at="2025-02-20T09:56:45 IST" name="VerifyProductPrice" finished-at="2025-02-20T09:57:08 IST" duration-ms="22672" status="FAIL">
           <exception class="java.lang.NumberFormatException">
             <message>
               <![CDATA[For input string: "800.00"]]>
@@ -64,11 +64,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- VerifyProductPrice -->
       </class> <!-- com.Testcase.productCartTestCases -->
       <class name="com.Testcase.LoginTestCases">
-        <test-method signature="verifyInValidLogin()[pri:0, instance:com.Testcase.LoginTestCases@4738a206]" started-at="2025-02-20T09:05:54 IST" name="verifyInValidLogin" finished-at="2025-02-20T09:06:04 IST" duration-ms="9507" status="PASS">
+        <test-method signature="verifyInValidLogin()[pri:0, instance:com.Testcase.LoginTestCases@4738a206]" started-at="2025-02-20T09:57:08 IST" name="verifyInValidLogin" finished-at="2025-02-20T09:57:16 IST" duration-ms="7947" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInValidLogin -->
-        <test-method signature="verifyValidLogin()[pri:0, instance:com.Testcase.LoginTestCases@4738a206]" started-at="2025-02-20T09:06:04 IST" name="verifyValidLogin" finished-at="2025-02-20T09:06:19 IST" duration-ms="15308" status="PASS">
+        <test-method signature="verifyValidLogin()[pri:0, instance:com.Testcase.LoginTestCases@4738a206]" started-at="2025-02-20T09:57:16 IST" name="verifyValidLogin" finished-at="2025-02-20T09:57:28 IST" duration-ms="12170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyValidLogin -->
