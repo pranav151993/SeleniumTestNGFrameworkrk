@@ -8,7 +8,7 @@ import PageObjectModel.LoginPageObjects;
 
 public class LoginTestCases extends BaseClass {
 
-@Test(dependsOnMethods="Verifyvalidregistration")
+@Test                 //(dependsOnMethods="Verifyvalidregistration")
 public void verifyValidLogin() throws IOException, InterruptedException {
 
   Initializedriver();
